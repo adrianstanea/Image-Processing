@@ -16,3 +16,7 @@ Project focused on image segmentation
     conda env export --from-history > requirements_conda.txt
     pip-chill > requirements_pip.txt
 ```
+
+## Datasets used
+
+- https://github.com/xingchenzhang/MFIF
