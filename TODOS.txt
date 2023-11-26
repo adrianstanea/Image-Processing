@@ -3,6 +3,7 @@ Python Version: Ensure you have Python 3.6 or newer installed.
 Libraries: Install necessary libraries like NumPy, OpenCV, Matplotlib, and any specific libraries for image processing and machine learning (like TensorFlow or PyTorch if needed for the learning-based matting).
 
 2. Data Preparation
+# DONE DATA GATHERING THROUGH SH SCRIPT
 Image Collection: Gather multi-focus images to test the algorithm.
 Pre-processing: Resize images if necessary and convert them to a suitable format (like grayscale or RGB) as required by the algorithm.
 

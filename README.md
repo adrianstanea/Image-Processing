@@ -13,8 +13,8 @@ Project focused on image segmentation
 - Project dependencies were listed using:
 
 ```bash
-    conda env export --from-history > requirements_conda.txt
-    pip-chill > requirements_pip.txt
+    conda env export --from-history > enviroment.yml
+    pip-chill > requirements.txt
 ```
 
 ## Datasets used
