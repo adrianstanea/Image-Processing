@@ -1,21 +1,24 @@
 # Image-Processing
-Project focused on image segmentation
+Algorithm implementation of *Multi-focus image fusion using learning based matting with sum of the Gaussian-based modified Laplacian*
 
-# Virtual enviroment management
+# Virtual Enviroment Setup
 
-- Create a conda enviroment to separate project packages from system binaries
+- Create a virtual enviroment to separate project packages from system binaries. If you are using `venv` run the following commands:
 
+1. Create virtual environment in the current workspace:
 ```bash
-    conda update conda
-    conda create -n ENV_NAME python=3.10
+  python3 -m venv .venv/mfif
+``` 
+2. Activate the virtual environment:
+```bash
+    .venv\mfif\Scripts\activate       # Windows
+    source .venv/mfif/bin/activate    # Unix or MacOS
+```
+3. Once the virtual environment is activated, install the required packages:
+```bash
+    pip install -r requirements.txt
 ```
 
-- Project dependencies were listed using:
-
-```bash
-    conda env export --from-history > enviroment.yml
-    pip-chill > requirements.txt
-```
 
 ## Datasets used
 
