@@ -1,8 +1,0 @@
-name: pni
-channels:
-  - defaults
-dependencies:
-  - python=3.10
-  - ipykernel
-  - matplotlib
-prefix: /home/astanea/anaconda3/envs/pni
