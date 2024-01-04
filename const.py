@@ -3,4 +3,7 @@ SIGMA = 2                           # standard deviation used in SGML byt the ga
 PADDING = (KERNEL_SIZE - 1) // 2    # neccesary padding to keep the image size
 
 
-VERBOSE = True                      # print information about the process
+VERBOSE = False                      # print information about the process
+
+STRUCTURING_ELEM_SIZE = 3           # size of the structuring element used in the morphological operations\
+MORPH_NUM_ITERATIONS = 7            # number of iterations used in the morphological operations
