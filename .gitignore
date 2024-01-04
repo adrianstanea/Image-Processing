@@ -1,6 +1,7 @@
 local/*
 data/*
 .idea
+.legacy
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
